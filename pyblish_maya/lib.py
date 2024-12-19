@@ -13,7 +13,7 @@ from maya import mel, cmds
 
 # Local libraries
 from . import plugins
-from .vendor.Qt import QtWidgets, QtGui
+from Qt import QtWidgets, QtGui
 
 self = sys.modules[__name__]
 self._has_been_setup = False
